@@ -1,2 +1,2 @@
 # edutech-site
-Created with CodeSandbox
+Created Using React
