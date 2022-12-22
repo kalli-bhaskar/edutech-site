@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import { useFormik } from "formik";
 
-function Registration(values) {
+function Registration() {
   // const navigate = useNavigate();
   const formik = useFormik({
     initialValues: {
@@ -14,11 +14,11 @@ function Registration(values) {
       email: "",
       number: "",
       Course: "",
-      formHorizontalRadios: ""
+      formHorizontalRadios: "",
     },
     onSubmit: (values) => {
       console.log(JSON.stringify(values, null, 2));
-    }
+    },
   });
 
   // const handleSubmit = (event) => {
