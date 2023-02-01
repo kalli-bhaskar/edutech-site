@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import { useFormik } from "formik";
 
-function Registration(values) {
+function Registration() {
   // const navigate = useNavigate();
   const formik = useFormik({
     initialValues: {
@@ -30,7 +30,7 @@ function Registration(values) {
 
   return (
     <section id="Regform">
-      <div class="container">
+      <div className="container">
         <Form onSubmit={formik.handleSubmit}>
           <Form.Group as={Row} className="mb-3" controlId="formHorizontalName">
             <Form.Label column sm={2}>
@@ -104,30 +104,30 @@ function Registration(values) {
           <fieldset>
             <Form.Group as={Row} className="mb-3">
               <Form.Label as="legend" column sm={2}>
-                Gender
+                Education
               </Form.Label>
               <Col sm={10}>
                 <Form.Check
                   type="radio"
-                  label="Male"
+                  label="BE/BTech"
                   name="formHorizontalRadios"
-                  value="Male"
+                  value="BE/BTech"
                   onChange={formik.handleChange}
                   id="formHorizontalRadios1"
                 />
                 <Form.Check
                   type="radio"
-                  label="Female"
+                  label="Diploma"
                   name="formHorizontalRadios"
-                  value="Female"
+                  value="Diploma"
                   onChange={formik.handleChange}
                   id="formHorizontalRadios2"
                 />
                 <Form.Check
                   type="radio"
-                  label="Prefer not to say"
+                  label="Others"
                   name="formHorizontalRadios"
-                  value="Prefer not to say"
+                  value="Others"
                   onChange={formik.handleChange}
                   id="formHorizontalRadios3"
                 />

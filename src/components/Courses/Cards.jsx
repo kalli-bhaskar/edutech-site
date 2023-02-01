@@ -7,7 +7,7 @@ function Cards(props) {
       <img src={props.img} alt="" />
       <h3>{props.name}</h3>
       <p>{props.content}</p>
-      <Link to={props.btn} className="btn">
+      <Link to={`${props.name}`} className="btn">
         View more
       </Link>
     </div>

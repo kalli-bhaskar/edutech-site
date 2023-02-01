@@ -1,5 +1,6 @@
 const contacts = [
   {
+    id: "1",
     name: "Python",
     imgURL: "images/py.png",
     content:
@@ -7,6 +8,7 @@ const contacts = [
     buttonURL: "/course"
   },
   {
+    id: "2",
     name: "Java",
     imgURL: "images/java.png",
     content:
@@ -14,6 +16,7 @@ const contacts = [
     buttonURL: "/course"
   },
   {
+    id: "3",
     name: "Web Development with MERN Stack",
     imgURL: "images/icon-6.png",
     content:
@@ -21,6 +24,7 @@ const contacts = [
     buttonURL: "/course"
   },
   {
+    id: "4",
     name: "SQL",
     imgURL: "images/sql-file-format-symbol.png",
     content:
@@ -28,20 +32,23 @@ const contacts = [
     buttonURL: "/course"
   },
   {
-    name: "C/C++",
+    id: "5",
+    name: "C C++",
     imgURL: "images/c-.png",
     content:
       "Join us For the 45 days intensive training program. Get Placed as a Software Development Engineer.",
     buttonURL: "/course"
   },
   {
-    name: "UI/UX Design",
+    id: "6",
+    name: "UI UX Design",
     imgURL: "images/layers.png",
     content:
       "Join us For the 60 days intensive training program. Get to learn how to create beautiful designs",
     buttonURL: "/course"
   },
   {
+    id: "7",
     name: "Advanced Excel For Data Analysis",
     imgURL: "images/excel.png",
     content:
@@ -49,6 +56,7 @@ const contacts = [
     buttonURL: "/course"
   },
   {
+    id: "8",
     name: "Machine Learning",
     imgURL: "images/machine-learning.png",
     content:

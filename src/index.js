@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./components/App";
-import Course from "./components/Routes/Course";
+import Course from "./components/Routes/Course/Course";
 import Registration from "./components/Routes/Registration/Registration";
 
 const router = createBrowserRouter([
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     // errorElement: <ErrorPage />
   },
   {
-    path: "/course",
+    path: "/:name",
     element: <Course />
   },
   {
